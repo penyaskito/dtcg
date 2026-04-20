@@ -39,6 +39,7 @@ Types used in this repo:
 - `feat` — new user-facing capability
 - `fix` — bug fix
 - `refactor` — internal restructuring with no behaviour change
+- `style` — formatting-only changes (php-cs-fixer output, whitespace)
 - `perf` — performance improvement
 - `test` — adding or adjusting tests only
 - `docs` — README, ROADMAP, CLAUDE.md, docblocks
