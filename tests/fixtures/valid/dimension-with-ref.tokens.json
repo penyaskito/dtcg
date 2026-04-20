@@ -1,0 +1,11 @@
+{
+  "spacing": {
+    "$type": "dimension",
+    "base": {
+      "$value": { "value": 16, "unit": "px" }
+    },
+    "alias": {
+      "$ref": "#/spacing/base"
+    }
+  }
+}

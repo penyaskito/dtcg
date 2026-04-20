@@ -1,0 +1,6 @@
+{
+  "weird.name": {
+    "$type": "dimension",
+    "$value": { "value": 4, "unit": "px" }
+  }
+}

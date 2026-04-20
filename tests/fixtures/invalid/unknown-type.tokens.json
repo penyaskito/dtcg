@@ -1,0 +1,8 @@
+{
+  "spacing": {
+    "$type": "notAType",
+    "base": {
+      "$value": { "value": 16, "unit": "px" }
+    }
+  }
+}

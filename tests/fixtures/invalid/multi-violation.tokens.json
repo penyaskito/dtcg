@@ -1,0 +1,10 @@
+{
+  "a": {
+    "$type": "dimension",
+    "$value": { "value": "not-a-number", "unit": "em" }
+  },
+  "b": {
+    "$type": "notAType",
+    "$value": true
+  }
+}

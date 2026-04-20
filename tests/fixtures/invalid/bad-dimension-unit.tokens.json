@@ -1,0 +1,8 @@
+{
+  "spacing": {
+    "base": {
+      "$type": "dimension",
+      "$value": { "value": 16, "unit": "em" }
+    }
+  }
+}

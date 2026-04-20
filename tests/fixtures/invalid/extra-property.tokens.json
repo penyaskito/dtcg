@@ -1,0 +1,9 @@
+{
+  "spacing": {
+    "base": {
+      "$type": "dimension",
+      "$value": { "value": 16, "unit": "px" },
+      "$nonsense": true
+    }
+  }
+}

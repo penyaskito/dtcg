@@ -1,0 +1,24 @@
+{
+  "n": {
+    "$type": "number",
+    "lineHeight": { "$value": 1.5 }
+  },
+  "time": {
+    "$type": "duration",
+    "fast": { "$value": { "value": 200, "unit": "ms" } }
+  },
+  "weights": {
+    "$type": "fontWeight",
+    "bold": { "$value": "bold" },
+    "custom": { "$value": 650 }
+  },
+  "easings": {
+    "$type": "cubicBezier",
+    "inOut": { "$value": [0.42, 0, 0.58, 1] }
+  },
+  "fonts": {
+    "$type": "fontFamily",
+    "primary": { "$value": "Inter" },
+    "fallbacks": { "$value": ["Inter", "system-ui", "sans-serif"] }
+  }
+}
