@@ -1,7 +1,7 @@
 # penyaskito/dtcg
 
 [![CI](https://github.com/penyaskito/dtcg/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/penyaskito/dtcg/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/penyaskito/dtcg/branch/main/graph/badge.svg)](https://codecov.io/gh/penyaskito/dtcg)
+[![codecov](https://codecov.io/gh/penyaskito/dtcg/graph/badge.svg?token=5IDDXZ2J3M)](https://codecov.io/gh/penyaskito/dtcg)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.3-8892BF.svg)](composer.json)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
