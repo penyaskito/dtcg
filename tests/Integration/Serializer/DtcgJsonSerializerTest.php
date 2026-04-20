@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Serializer;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Serializer\DtcgJsonSerializer;
+use PHPUnit\Framework\TestCase;
 
 final class DtcgJsonSerializerTest extends TestCase
 {

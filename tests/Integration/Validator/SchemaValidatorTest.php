@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Validator;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Validator\SchemaValidator;
 use Penyaskito\Dtcg\Validator\Violation;
 use Penyaskito\Dtcg\Validator\ViolationSource;
+use PHPUnit\Framework\TestCase;
 
 final class SchemaValidatorTest extends TestCase
 {

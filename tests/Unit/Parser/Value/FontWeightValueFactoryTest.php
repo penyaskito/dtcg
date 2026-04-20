@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Parser\Value;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Value\FontWeightValueFactory;
 use Penyaskito\Dtcg\Tom\Type;
 use Penyaskito\Dtcg\Tom\Value\FontWeightKeyword;
 use Penyaskito\Dtcg\Tom\Value\FontWeightValue;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(FontWeightValueFactory::class)]
 final class FontWeightValueFactoryTest extends TestCase

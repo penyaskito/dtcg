@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Parser;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Tom\Group;
 use Penyaskito\Dtcg\Tom\Type;
@@ -16,6 +15,7 @@ use Penyaskito\Dtcg\Tom\Value\FontWeightKeyword;
 use Penyaskito\Dtcg\Tom\Value\FontWeightValue;
 use Penyaskito\Dtcg\Tom\Value\NumberValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class ParseScalarTypesTest extends TestCase
 {

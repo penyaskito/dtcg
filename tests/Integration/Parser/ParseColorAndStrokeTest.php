@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Parser;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Tom\Document;
 use Penyaskito\Dtcg\Tom\Group;
@@ -16,6 +15,7 @@ use Penyaskito\Dtcg\Tom\Value\LineCap;
 use Penyaskito\Dtcg\Tom\Value\StrokeStyleKeyword;
 use Penyaskito\Dtcg\Tom\Value\StrokeStyleValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class ParseColorAndStrokeTest extends TestCase
 {

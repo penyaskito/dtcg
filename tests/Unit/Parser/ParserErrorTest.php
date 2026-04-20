@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Parser;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Parser;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(Parser::class)]
 #[CoversClass(ParseError::class)]

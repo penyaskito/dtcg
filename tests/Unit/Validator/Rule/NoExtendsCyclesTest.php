@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Validator\Rule;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Reference\JsonPointerReference;
 use Penyaskito\Dtcg\Reference\Resolver;
 use Penyaskito\Dtcg\SpecVersion;
@@ -17,6 +15,8 @@ use Penyaskito\Dtcg\Tom\SourceMap;
 use Penyaskito\Dtcg\Validator\Rule\Context;
 use Penyaskito\Dtcg\Validator\Rule\NoExtendsCycles;
 use Penyaskito\Dtcg\Validator\Violation;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(NoExtendsCycles::class)]
 final class NoExtendsCyclesTest extends TestCase

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Tom;
 
+use Penyaskito\Dtcg\Tom\Metadata;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Penyaskito\Dtcg\Tom\Metadata;
 
 #[CoversClass(Metadata::class)]
 final class MetadataTest extends TestCase

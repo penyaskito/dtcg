@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Parser\Value;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Value\TransitionValueFactory;
 use Penyaskito\Dtcg\Tom\Type;
 use Penyaskito\Dtcg\Tom\Value\TransitionValue;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(TransitionValueFactory::class)]
 final class TransitionValueFactoryTest extends TestCase

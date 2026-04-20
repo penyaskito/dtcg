@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Reference;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Reference\InvalidReferenceException;
 use Penyaskito\Dtcg\Reference\JsonPointerReference;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(JsonPointerReference::class)]
 final class JsonPointerReferenceTest extends TestCase

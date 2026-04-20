@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Reference;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Reference\MaterializationException;
 use Penyaskito\Dtcg\Reference\Materializer;
@@ -19,6 +18,7 @@ use Penyaskito\Dtcg\Tom\Value\ReferenceValue;
 use Penyaskito\Dtcg\Tom\Value\StrokeStyleValue;
 use Penyaskito\Dtcg\Tom\Value\TypographyValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class MaterializerTest extends TestCase
 {

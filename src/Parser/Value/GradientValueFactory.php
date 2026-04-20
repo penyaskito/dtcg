@@ -64,7 +64,7 @@ final class GradientValueFactory implements ValueFactory
             if (!array_key_exists($required, $raw)) {
                 throw ParseError::at(
                     $pointer,
-                    sprintf("gradient stop.%s is required", $required),
+                    sprintf('gradient stop.%s is required', $required),
                 );
             }
         }

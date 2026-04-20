@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Reference;
 
+use Penyaskito\Dtcg\Reference\CurlyBraceReference;
+use Penyaskito\Dtcg\Reference\InvalidReferenceException;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Penyaskito\Dtcg\Reference\CurlyBraceReference;
-use Penyaskito\Dtcg\Reference\InvalidReferenceException;
 
 #[CoversClass(CurlyBraceReference::class)]
 final class CurlyBraceReferenceTest extends TestCase

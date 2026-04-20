@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Reference;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Reference\CycleDetector;
 use Penyaskito\Dtcg\Reference\CyclicReferenceException;
 use Penyaskito\Dtcg\Tom\Path;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(CycleDetector::class)]
 #[CoversClass(CyclicReferenceException::class)]

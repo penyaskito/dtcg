@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Parser;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Tom\Group;
 use Penyaskito\Dtcg\Tom\Type;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(Parser::class)]
 final class TypeInheritanceTest extends TestCase

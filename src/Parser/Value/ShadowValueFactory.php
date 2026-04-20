@@ -72,7 +72,7 @@ final class ShadowValueFactory implements ValueFactory
             if (!array_key_exists($required, $raw)) {
                 throw ParseError::at(
                     $pointer,
-                    sprintf("shadow.%s is required", $required),
+                    sprintf('shadow.%s is required', $required),
                 );
             }
         }

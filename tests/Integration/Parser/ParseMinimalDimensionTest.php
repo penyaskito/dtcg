@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Parser;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\SpecVersion;
 use Penyaskito\Dtcg\Tom\Group;
@@ -12,6 +11,7 @@ use Penyaskito\Dtcg\Tom\Type;
 use Penyaskito\Dtcg\Tom\Value\DimensionUnit;
 use Penyaskito\Dtcg\Tom\Value\DimensionValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class ParseMinimalDimensionTest extends TestCase
 {

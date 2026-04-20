@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Parser\Value;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Value\DurationValueFactory;
 use Penyaskito\Dtcg\Tom\Type;
 use Penyaskito\Dtcg\Tom\Value\DurationUnit;
 use Penyaskito\Dtcg\Tom\Value\DurationValue;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(DurationValueFactory::class)]
 final class DurationValueFactoryTest extends TestCase

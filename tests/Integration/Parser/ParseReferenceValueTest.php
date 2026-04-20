@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Parser;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Reference\CurlyBraceReference;
@@ -12,6 +11,7 @@ use Penyaskito\Dtcg\Tom\Type;
 use Penyaskito\Dtcg\Tom\Value\DimensionValue;
 use Penyaskito\Dtcg\Tom\Value\ReferenceValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class ParseReferenceValueTest extends TestCase
 {
@@ -69,7 +69,7 @@ final class ParseReferenceValueTest extends TestCase
     public function testRejectsMalformedCurlyBraceAlias(): void
     {
         $this->expectException(ParseError::class);
-        $this->expectExceptionMessageMatches("/invalid curly-brace alias in \\\$value: .* \\(at \\/alias\\)/");
+        $this->expectExceptionMessageMatches('/invalid curly-brace alias in \\$value: .* \\(at \\/alias\\)/');
 
         (new Parser())->parseArray([
             'alias' => ['$type' => 'dimension', '$value' => '{bad..path}'],

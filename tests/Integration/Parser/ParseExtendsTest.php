@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Parser;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Reference\CurlyBraceReference;
@@ -12,6 +11,7 @@ use Penyaskito\Dtcg\Reference\JsonPointerReference;
 use Penyaskito\Dtcg\Tom\Group;
 use Penyaskito\Dtcg\Tom\Value\DimensionValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class ParseExtendsTest extends TestCase
 {
@@ -144,7 +144,7 @@ final class ParseExtendsTest extends TestCase
     public function testRejectsMalformedExtends(): void
     {
         $this->expectException(ParseError::class);
-        $this->expectExceptionMessageMatches("/invalid \\\$extends: .* \\(at \\/bad\\)/");
+        $this->expectExceptionMessageMatches('/invalid \\$extends: .* \\(at \\/bad\\)/');
         (new Parser())->parseArray([
             'bad' => ['$extends' => 'not-a-reference'],
         ]);
@@ -162,7 +162,7 @@ final class ParseExtendsTest extends TestCase
     public function testRejectsExtendsTargetThatIsAToken(): void
     {
         $this->expectException(ParseError::class);
-        $this->expectExceptionMessage("must be a group, got a token");
+        $this->expectExceptionMessage('must be a group, got a token');
         (new Parser())->parseArray([
             'base' => ['$type' => 'dimension', '$value' => ['value' => 1, 'unit' => 'px']],
             'bad' => ['$extends' => '#/base'],

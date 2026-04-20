@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Parser\Value;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Value\StrokeStyleValueFactory;
 use Penyaskito\Dtcg\Tom\Value\LineCap;
 use Penyaskito\Dtcg\Tom\Value\StrokeStyleKeyword;
 use Penyaskito\Dtcg\Tom\Value\StrokeStyleValue;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(StrokeStyleValueFactory::class)]
 final class StrokeStyleValueFactoryTest extends TestCase

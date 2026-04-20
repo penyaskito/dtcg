@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Tom;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Tom\Group;
 use Penyaskito\Dtcg\Tom\Token;
 use Penyaskito\Dtcg\Tom\Walker;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(Walker::class)]
 final class WalkerTest extends TestCase

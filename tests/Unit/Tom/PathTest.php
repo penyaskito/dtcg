@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Tom;
 
+use Penyaskito\Dtcg\Tom\Path;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Penyaskito\Dtcg\Tom\Path;
 
 #[CoversClass(Path::class)]
 final class PathTest extends TestCase

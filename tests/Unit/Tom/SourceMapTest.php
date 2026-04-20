@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Tom;
 
+use Penyaskito\Dtcg\Tom\SourceMap;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Penyaskito\Dtcg\Tom\SourceMap;
 
 #[CoversClass(SourceMap::class)]
 final class SourceMapTest extends TestCase

@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Parser;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Reference\CurlyBraceReference;
 use Penyaskito\Dtcg\Reference\JsonPointerReference;
 use Penyaskito\Dtcg\Tom\Document;
 use Penyaskito\Dtcg\Tom\Group;
 use Penyaskito\Dtcg\Tom\Value\BorderValue;
-use Penyaskito\Dtcg\Tom\Value\ColorValue;
 use Penyaskito\Dtcg\Tom\Value\DimensionValue;
 use Penyaskito\Dtcg\Tom\Value\GradientValue;
 use Penyaskito\Dtcg\Tom\Value\ReferenceValue;
@@ -20,6 +18,7 @@ use Penyaskito\Dtcg\Tom\Value\StrokeStyleValue;
 use Penyaskito\Dtcg\Tom\Value\TransitionValue;
 use Penyaskito\Dtcg\Tom\Value\TypographyValue;
 use Penyaskito\Dtcg\Tom\ValueToken;
+use PHPUnit\Framework\TestCase;
 
 final class ParsePropertyLevelReferencesTest extends TestCase
 {

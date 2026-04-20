@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Validator;
 
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Validator\SemanticValidator;
 use Penyaskito\Dtcg\Validator\Violation;
 use Penyaskito\Dtcg\Validator\ViolationSource;
+use PHPUnit\Framework\TestCase;
 
 final class SemanticValidatorTest extends TestCase
 {

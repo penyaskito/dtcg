@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Integration\Fixture;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Parser\ParseError;
 use Penyaskito\Dtcg\Parser\Parser;
 use Penyaskito\Dtcg\Reference\Materializer;
@@ -13,6 +11,8 @@ use Penyaskito\Dtcg\Reference\Resolver;
 use Penyaskito\Dtcg\Serializer\DtcgJsonSerializer;
 use Penyaskito\Dtcg\Validator\SemanticValidator;
 use Penyaskito\Dtcg\Validator\Violation;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Fixture-driven pipeline test for third-party fixtures.

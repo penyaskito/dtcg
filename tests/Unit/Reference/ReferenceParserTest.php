@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Penyaskito\Dtcg\Tests\Unit\Reference;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Penyaskito\Dtcg\Reference\CurlyBraceReference;
 use Penyaskito\Dtcg\Reference\InvalidReferenceException;
 use Penyaskito\Dtcg\Reference\JsonPointerReference;
 use Penyaskito\Dtcg\Reference\ReferenceParser;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(ReferenceParser::class)]
 final class ReferenceParserTest extends TestCase
