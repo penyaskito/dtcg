@@ -25,6 +25,32 @@ Update it whenever any of the following shifts:
 Do **not** turn `ROADMAP.md` into a changelog or a wishlist. It tracks
 committed scope, not activity. YAGNI applies.
 
+## Commit messages
+
+Use [Conventional Commits](https://www.conventionalcommits.org/) for the
+commit subject line:
+
+```
+<type>(<optional scope>): <short imperative summary>
+```
+
+Types used in this repo:
+
+- `feat` — new user-facing capability
+- `fix` — bug fix
+- `refactor` — internal restructuring with no behaviour change
+- `perf` — performance improvement
+- `test` — adding or adjusting tests only
+- `docs` — README, ROADMAP, CLAUDE.md, docblocks
+- `ci` — GitHub Actions, Dependabot, workflow config
+- `build` — composer.json, tooling config (phpstan, phpunit, cs-fixer)
+- `chore` — everything else that doesn't fit above
+
+Keep the subject under ~72 characters, lowercase, no trailing period.
+Use the body for the *why*; let the diff speak for the *what*. Breaking
+changes get a `!` after the type/scope (e.g. `feat(parser)!: …`) and a
+`BREAKING CHANGE:` footer explaining the migration.
+
 ## Commit attribution
 
 When creating a commit on behalf of the user, attribute the agent using an
